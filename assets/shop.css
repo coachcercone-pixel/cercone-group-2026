@@ -1,5 +1,5 @@
 /* /promptpacks · Direction A2 look on cerconegroup.com (Dylan's pick, Nov 25, 2026, 12:48 PM; faceless rule retired 12:56 PM). Loads after style.css. Everything is scoped to body.pp. Chloe. */
-body.pp{--iv:#f2ebdd;--iv2:#e9e1cf;--iv3:#e2d9c4;--gb:#16231c;--gb2:#0f1813;--au:#b8924f;--au2:#7a5c2a;--tx:#1d2420;--mu:#555a53;--ln:rgba(22,35,28,.14);background:var(--iv);color:var(--tx)}
+body.pp{--iv:#f2ebdd;--iv2:#e9e1cf;--iv3:#e2d9c4;--gb:#16231c;--gb2:#0f1813;--nv:#101b33;--nv2:#0a1122;--nvh:#1c2a4a;--ow:#f7f3ea;--au:#b8924f;--au2:#7a5c2a;--tx:#1d2420;--mu:#555a53;--ln:rgba(22,35,28,.14);background:var(--iv);color:var(--tx)}
 body.pp h1,body.pp h2,body.pp h3,body.pp h4{font-family:'Bodoni Moda',serif;font-weight:400}
 body.pp .lab{color:var(--au2);letter-spacing:.32em}
 .pw{max-width:1200px;margin:0 auto;padding:0 64px}
@@ -13,9 +13,9 @@ html.sale .reg{display:none!important}
 html.sale .salebar.sale-only{display:block!important}
 .price{display:none}
 html.prices .price,html.sale .price{display:block}
-.salebar{background:var(--gb);color:var(--iv);text-align:center;font-size:11px;letter-spacing:.2em;font-weight:600;text-transform:uppercase;padding:11px 18px}
+.salebar{background:var(--nv);color:var(--iv);text-align:center;font-size:11px;letter-spacing:.2em;font-weight:600;text-transform:uppercase;padding:11px 18px}
 .salebar b{color:var(--au)}
-.salebar .tagpv{display:inline-block;background:var(--au);color:var(--gb);padding:2px 9px;margin-right:12px}
+.salebar .tagpv{display:inline-block;background:var(--au);color:var(--nv);padding:2px 9px;margin-right:12px}
 
 /* the site header, on ivory */
 body.pp header{position:relative;max-width:1440px;margin:0 auto}
@@ -67,9 +67,9 @@ body.pp .menu-btn{color:var(--tx)}
 .eds .hd p{font-size:16px;line-height:1.7;color:var(--mu);max-width:520px;margin:18px auto 0}
 .items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;padding-bottom:110px}
 .item{display:flex;flex-direction:column;text-align:center}
-.item .tile{background:var(--iv2);aspect-ratio:5/4;display:flex;align-items:center;justify-content:center;padding:12%}
-.item.lead .tile{background:var(--gb)}
-.item .tile img{width:100%;height:auto;box-shadow:0 22px 40px rgba(0,0,0,.32);transition:transform .4s}
+.item .tile{background:var(--ow);border:1px solid rgba(184,146,79,.45);aspect-ratio:5/4;display:flex;align-items:center;justify-content:center;padding:12%}
+.item.lead .tile{background:var(--ow)}
+.item .tile img{width:100%;height:auto;box-shadow:0 14px 30px rgba(16,27,51,.16),0 2px 6px rgba(16,27,51,.08);transition:transform .4s}
 .item:hover .tile img{transform:translateY(-5px)}
 .item .lab{margin-top:28px}
 .item h3{font-size:25px;line-height:1.25;color:var(--gb);margin-top:12px;min-height:2.5em}
@@ -79,10 +79,10 @@ body.pp .menu-btn{color:var(--tx)}
 .item .price s{color:#8f8b80;margin-left:8px}
 .item .price .bf{font-size:10px;letter-spacing:.22em;font-weight:700;text-transform:uppercase;color:var(--au2);margin-left:10px}
 .item .go{margin-top:auto;padding-top:24px}
-.pbtn{display:block;border:1px solid var(--gb);color:var(--gb);font-size:11px;letter-spacing:.26em;font-weight:600;text-transform:uppercase;padding:17px 18px;text-align:center;transition:background .2s,color .2s}
-.pbtn:hover{background:var(--gb);color:var(--iv)}
-.pbtn.solid,.item.lead .pbtn{background:var(--gb);color:var(--iv)}
-.pbtn.solid:hover,.item.lead .pbtn:hover{background:#24382d}
+.pbtn{display:block;border:1px solid var(--nv);color:var(--nv);font-size:11px;letter-spacing:.26em;font-weight:600;text-transform:uppercase;padding:17px 18px;text-align:center;transition:background .2s,color .2s}
+.pbtn:hover{background:var(--nv);color:var(--iv)}
+.pbtn.solid,.item.lead .pbtn{background:var(--nv);color:var(--iv)}
+.pbtn.solid:hover,.item.lead .pbtn:hover{background:var(--nvh)}
 .item .nt{font-size:12px;color:var(--mu);margin-top:11px}
 
 /* compare */
@@ -99,13 +99,13 @@ body.pp .menu-btn{color:var(--tx)}
 .compare .lc{background:rgba(22,35,28,.045)}
 
 /* dark band: how it works */
-.how{background:var(--gb);color:var(--iv);padding:104px 0}
+.how{background:var(--nv);color:var(--iv);padding:104px 0}
 .how .in{display:grid;grid-template-columns:360px minmax(0,1fr);gap:80px}
 body.pp .how .lab{color:var(--au)}
 .how h2{font-size:42px;line-height:1.12;color:#fff;margin-top:20px}
 .how .side p{font-size:15px;line-height:1.7;color:#cfc9b8;margin-top:18px}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(184,146,79,.32);border:1px solid rgba(184,146,79,.32)}
-.steps div{background:var(--gb);padding:32px 26px}
+.steps div{background:var(--nv);padding:32px 26px}
 .steps .n{font-family:'Bodoni Moda',serif;font-size:20px;color:var(--au)}
 .steps h4{font-size:25px;color:#fff;margin:18px 0 10px}
 .steps p{font-size:14px;line-height:1.6;color:#cfc9b8}
@@ -149,10 +149,10 @@ body.pp .faq details[open] summary::after{content:"\2013"}
 .fitp h4{font-size:28px;color:var(--gb);margin:14px 0 12px}
 .fitp p{font-size:15px;line-height:1.7}
 
-/* the site's contact block and footer, in green-black */
-body.pp .close{background:linear-gradient(180deg,var(--gb) 0%,var(--gb2) 55%,#000 100%)}
+/* the site's contact block and footer, in brand blue (was green-black until Nov 26) */
+body.pp .close{background:linear-gradient(180deg,var(--nv) 0%,var(--nv2) 55%,#000 100%)}
 body.pp .close .lab{color:var(--au)}
-body.pp .close .btn{background:var(--iv);color:var(--gb)}
+body.pp .close .btn{background:var(--iv);color:var(--nv)}
 body.pp footer .mono{color:var(--au)}
 
 /* phone bar */
@@ -211,7 +211,7 @@ body.pp footer .mono{color:var(--au)}
  .bar-m.show{transform:none}
  .bar-m span{font-size:12px;color:var(--mu);line-height:1.35}
  .bar-m span b{display:block;font-family:'Bodoni Moda',serif;font-weight:400;font-size:16px;color:var(--gb)}
- .bar-m .pbtn{background:var(--gb);color:var(--iv);padding:14px 16px;white-space:nowrap;font-size:10px}
+ .bar-m .pbtn{background:var(--nv);color:var(--iv);padding:14px 16px;white-space:nowrap;font-size:10px}
 }
 @media (max-width:700px){.compare .swipe{display:block}}
 @media (max-width:480px){.topics div{padding:18px 16px}.topics h4{font-size:17px}}
