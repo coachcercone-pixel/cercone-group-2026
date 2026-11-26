@@ -96,7 +96,7 @@ body.pp .menu-btn{color:var(--tx)}
 .compare th{font-size:10px;letter-spacing:.24em;font-weight:700;color:var(--au2);text-transform:uppercase}
 .compare th:first-child,.compare td:first-child{text-align:left}
 .compare td.y::before{content:"";display:inline-block;width:7px;height:7px;background:var(--gb);transform:rotate(45deg)}
-.compare td.o{color:#a9a395}
+.compare td.o{color:var(--mu)}
 .compare .lc{background:transparent}
 
 /* dark band: how it works */
