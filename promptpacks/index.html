@@ -19,8 +19,9 @@
 <link rel="preload" href="../assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/style.css">
 <link rel="stylesheet" href="../assets/shop.css">
-<script>/* Black Friday prices show until Mon Nov 30, 2026, 11:59 PM ET (12:00 AM ET Dec 1 = 05:00 UTC), then the regular prices return on their own. Preview: ?prices=1 regular, ?sale=1 sale. */
-(function(q,h){var end=Date.UTC(2026,11,1,5,0,0),m=/[?&]prices=1/.test(q)?'prices':(/[?&]sale=1/.test(q)||Date.now()<end)?'sale':'prices';h.className+=' '+m})(location.search,document.documentElement);</script>
+<script>/* Black Friday prices show until Mon Nov 30, 2026, 11:59 PM ET (12:00 AM ET Dec 1 = 05:00 UTC), then the regular prices return on their own. The preview switches (?prices=1 regular, ?sale=1 sale) work only on a local preview (localhost), never on the live site. */
+window.ppMode=function(q,host,now){var end=Date.UTC(2026,11,1,5,0,0),local=/^(localhost|127\.0\.0\.1|\[::1\])$/.test(host)||/\.localhost$/.test(host);if(local&&/[?&]prices=1/.test(q))return 'prices';if(local&&/[?&]sale=1/.test(q))return 'sale';return now<end?'sale':'prices'};
+document.documentElement.className+=' '+window.ppMode(location.search,location.hostname,Date.now());</script>
 </head>
 <body id="top" class="pp">
 
@@ -67,7 +68,7 @@
   </figure>
 
   <div class="tx">
-    <div class="lab">Executive Prompts · Edition 1.5</div>
+    <div class="lab">Executive Prompts</div>
     <h1>Prompts for the decisions <i>and plans</i> you own.</h1>
     <p class="k">Paste-ready prompts and operating tools for founder-operators. Use the prompts to turn a brain dump into a weekly plan.</p>
     <div class="rule"></div>
@@ -78,7 +79,7 @@
 
 <section class="eds pw" id="editions">
   <div class="hd">
-    <div class="lab">Edition 1.5 · November 2026</div>
+    <div class="lab">Three editions</div>
     <h2>The editions</h2>
     <p>Every prompt comes with a plain-English fill-in guide. The prompts give you a strong first draft. You review it, correct it and run your week.</p>
   </div>
@@ -110,7 +111,7 @@
       <h3>Weekly Plan from a Brain Dump</h3>
       <p class="fm">Digital download · PDF</p>
       <p class="sp">One guided prompt · fill-in guide · review checklist</p>
-      <p class="price"><span>On us</span></p>
+      <p class="price"><span>$1.99</span></p>
       <div class="go"><a class="pbtn" href="https://executiveprompt.gumroad.com/l/guczc">View the weekly plan</a><p class="nt">Checkout on Gumroad · instant download</p></div>
     </article>
 
