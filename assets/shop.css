@@ -1,6 +1,6 @@
 /* Palette v2 (Thu Nov 26, 2026, C.C., on Alpha's pick after Dylan's 1:42 AM note): one ivory canvas with the main site's ink, navy and gold. Navy only for the sale strip, primary buttons and the closing contact/footer. Gold is a small accent. No green-black panels, no tinted backgrounds. */
 /* /promptpacks · Direction A2 look on cerconegroup.com (Dylan's pick, Nov 25, 2026, 12:48 PM; faceless rule retired 12:56 PM). Loads after style.css. Everything is scoped to body.pp. Chloe. */
-body.pp{--iv:#f3ede2;--iv2:#f3ede2;--iv3:#f3ede2;--gb:#0b0b0c;--nv:#101b33;--nv2:#0d1629;--au:#c9a45e;--au2:#8a6a30;--tx:#1b1b1d;--mu:#5b5850;--ln:rgba(11,11,12,.14);background:var(--iv);color:var(--tx)}
+body.pp{--iv:#f3ede2;--iv2:#f3ede2;--iv3:#f3ede2;--gb:#0b0b0c;--nv:#101b33;--nv2:#0d1629;--au:#c9a45e;--au2:#7a5c2a;--tx:#1b1b1d;--mu:#5b5850;--ln:rgba(11,11,12,.14);background:var(--iv);color:var(--tx)}
 body.pp h1,body.pp h2,body.pp h3,body.pp h4{font-family:'Bodoni Moda',serif;font-weight:400}
 body.pp .lab{color:var(--au2);letter-spacing:.32em}
 .pw{max-width:1200px;margin:0 auto;padding:0 64px}
