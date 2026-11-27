@@ -134,7 +134,7 @@ footer .copy{margin-top:10px;font-size:12px;color:#8f8a80}
  .hero{height:auto;min-height:0;display:flex;flex-direction:column;padding-top:70px}
  .hero img{position:relative;order:0;top:0;right:0;width:100%;height:500px;object-position:50% 12%;-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent 100%);mask-image:linear-gradient(180deg,#000 55%,transparent 100%)}
  .hero::after{display:none}
- .hero::before{display:none}
+ .hero::before{display:block;height:280px;background:linear-gradient(180deg,rgba(16,27,51,0) 0%,rgba(16,27,51,.55) 55%,var(--navy) 100%)}
  .hero .tx{position:relative;left:0;bottom:0;width:auto;padding:0 24px 70px;margin-top:-90px;z-index:3}
  .hero h1{font-size:46px}
  .kick{font-size:16px}
